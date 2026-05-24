@@ -31,37 +31,29 @@ const Mlik = () => {
             { id: 8, img: frame25, name: "Banana", currency: "$1.50/lb", price: 99.99, have: 12, sold:12 },
             { id: 9, img: frame26, name: "Mango", currency: "$4.00/lb", price: 99.99, have: 12, sold:12 },
             { id: 10, img: frame23, name: "Apple", currency: "$2.71/lb", price: 99.99, have: 12, sold:12 }
-           
-        
+
           ];
 
     return (
            <div>
-               
-                    
+
                      <div className="flex w-full items-center justify-between mt-7 mb-[30px]">
                        <h2 className="font-bold text-xl w-full">Milk</h2>
-               
-                         
-                    
-               
+    
                        <div className="hidden md:flex gap-[10px]">
-                           <div className="Pre border border-base-500 px-3 py-3  rounded-full">
+                           <div className="Prev border border-base-500 px-3 py-3  rounded-full">
                            <GrPrevious />
        
                            </div>
-       
-       
-                           <div className="Nex border border-base-500 px-3 py-3  rounded-full">
+
+                           <div className="Next border border-base-500 px-3 py-3  rounded-full">
                                <GrNext />
        
                            </div>
-                                        
-                                    </div>
+                         </div>
                       
                      </div>
-               
-                    
+     
                      <div className="w-full">
                
                        {showAll ? (
@@ -95,8 +87,8 @@ const Mlik = () => {
                            slidesPerView={5}
                            spaceBetween={15}
                            navigation={{
-                               nextEl: ".Nex",
-                               prevEl: ".Pre",
+                               nextEl: ".Next",
+                               prevEl: ".Prev",
                            }}
                            modules={[Navigation]}
                            breakpoints={{

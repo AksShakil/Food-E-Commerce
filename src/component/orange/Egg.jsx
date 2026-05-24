@@ -50,13 +50,9 @@ const Egg = () => {
                                  <div className="Nex border border-base-500 px-3 py-3  rounded-full">
                                      <GrNext />
              
-                                 </div>
-                                              
-                                          </div>
-                            
+                                 </div>                    
+                                   </div>     
                            </div>
-                     
-                          
                            <div className="w-full">
                      
                              {showAll ? (

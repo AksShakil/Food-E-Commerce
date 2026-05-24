@@ -43,13 +43,13 @@ const fooditem = () => {
                <div> </div>
         
                 <div className="hidden md:flex gap-[10px]">
-                    <div className="Prev border border-base-500 px-3 py-3  rounded-full">
+                    <div className="Pr border border-base-500 px-3 py-3  rounded-full">
                     <GrPrevious />
 
                     </div>
 
 
-                    <div className="Next border border-base-500 px-3 py-3  rounded-full">
+                    <div className="Ne border border-base-500 px-3 py-3  rounded-full">
                         <GrNext />
 
                     </div>
@@ -92,8 +92,8 @@ const fooditem = () => {
                     slidesPerView={5}
                     spaceBetween={15}
                     navigation={{
-                        nextEl: ".Next",
-                        prevEl: ".Prev",
+                        nextEl: ".Ne",
+                        prevEl: ".Pr",
                     }}
                     modules={[Navigation]}
                     breakpoints={{

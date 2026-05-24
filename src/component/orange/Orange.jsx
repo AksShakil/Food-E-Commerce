@@ -46,16 +46,9 @@ const Orange = () => {
             </div>
 
            </div>
+          <div className='flex px-[30px] py-[30px]'>
 
-          
-
-            
-        <div className='flex px-[30px] py-[30px]'>
-
-           <div className="hidden lg:block filter bg-[#F8F7F8] border rounded-xl w-[18%] h-fit">
-           
-
-
+           <div className="hidden lg:block filter bg-gray-50 border border-gray-100 rounded-xl w-[18%] -mt-8 h-fit">
 
         <div className='px-5 py-8'>
 
@@ -74,10 +67,8 @@ const Orange = () => {
             />
 
             </div>  <p className='mt-[-2px] font-semibold'>Deals</p> 
-
-        </div>
-
-        
+            </div>
+    
         <div className='flex gap-3 mt-4'>
 
             <div
